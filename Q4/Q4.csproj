@@ -48,9 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Doc\جلوگیری از اجرای همزمان برنامه .rtf" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Doc\" />
+    <Content Include="Doc\StopRunningTwiceProgramm.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
